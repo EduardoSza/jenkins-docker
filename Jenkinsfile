@@ -22,7 +22,7 @@ pipeline {
                     // Executa os testes dentro do container.
                     // ATENÇÃO: Se você usa Windows, mantenha "bat". 
                     // Se você estiver rodando o Jenkins no Linux/Mac, troque "bat" por "sh".
-                    bat "docker run --rm test-image npm test"
+                    sh "docker run --rm test-image npm test"
                 }
             }
         }
