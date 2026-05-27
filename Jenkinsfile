@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Build: Instalando dependências do Node.js...'
-                sh 'npm install'
+                sh 'npm installlll'
             }
         }
 
