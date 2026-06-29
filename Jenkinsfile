@@ -28,7 +28,7 @@ pipeline {
     }
 
     triggers {
-        cron('0 2 * * *')
+        cron('*/5 * * * *')
     }
 
     post {
