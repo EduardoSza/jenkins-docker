@@ -6,7 +6,6 @@ pipeline {
             agent {
                 dockerfile {
                     filename 'Dockerfile.build'
-                    label 'docker'
                 }
             }
             steps {
@@ -19,7 +18,6 @@ pipeline {
             agent {
                 dockerfile {
                     filename 'Dockerfile.test'
-                    label 'docker'
                 }
             }
             steps {
