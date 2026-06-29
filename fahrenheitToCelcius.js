@@ -7,3 +7,4 @@ function converterFahrenheitParaCelsius(fahrenheit) {
 }
 
 module.exports = converterFahrenheitParaCelsius;
+functionQuebrada(
