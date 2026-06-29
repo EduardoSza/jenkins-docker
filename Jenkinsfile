@@ -10,7 +10,7 @@ pipeline {
             }
             steps {
                 echo '=== CENÁRIO 1/4: Build realizado com sucesso no container Docker! ==='
-                sh 'node --version && npm --version'
+                sh 'npm install'
             }
         }
 
